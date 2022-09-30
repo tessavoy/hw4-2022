@@ -169,28 +169,28 @@ first div in the grid  and place it in the grid. */
     grid-row: 5 / span 1;
   }
   .about-image{
-    grid-column: 1 / span 3;
+    grid-column: 1 /  -1;
     max-height: 600px;
     grid-row: 2/ span 1;
     overflow: hidden;
   }
   
   .method-image{
-    grid-column: 1 / span 3;
+    grid-column: 1 / -1;
     grid-row: 3/span 1;
     max-height: 600px;
     overflow: hidden;
   }
   
   .clients-image{
-    grid-column: 1 / span 3;
+    grid-column: 1 / -1;
     max-height: 600px;
     grid-row: 4/ span 1;
     overflow: hidden;
   }
   
   .contact-image{
-    grid-column: 1 / span 3;
+    grid-column: 1 / -1;
     grid-row: 5/ span 1;
     max-height: 600px;
     overflow: hidden;
